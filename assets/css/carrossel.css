@@ -39,6 +39,7 @@
 .carrossel__lista-produtos{
     height: 100%;
     position: relative;
+    transition: transform.25s;
 }
 
 .carrossel__produto {

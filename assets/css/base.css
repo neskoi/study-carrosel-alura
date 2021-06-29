@@ -1,8 +1,17 @@
 @import url(./_reset.css);
 @import url(./_variable.css);
 
+html{
+    height: 100vh;
+    overflow: hidden;
+}
+
 body {
     font-family: 'Overpass', sans-serif;
+    height: 100%;
+    perspective: 1px;
+    overflow-x: hidden;
+    overflow-y: scroll;
 }
 
 .container {
