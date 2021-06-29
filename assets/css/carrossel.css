@@ -1,0 +1,82 @@
+.carrossel{
+    border-radius: 10px 10px 0 0;
+    height: 40rem;
+    overflow:  hidden;
+    position: relative;
+    width: 45rem;
+}
+
+.carrossel__botao{
+    background-color: var(--translucid-light-pink);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: .5rem;
+    border: none;
+    border-radius: 50%;
+    height: 2.25rem;
+    padding: .2rem;
+    position: absolute;
+    transform: translateY(-50%);
+    top: 50%;
+    width: 2.25rem;
+    z-index: 10;
+}
+
+.carrossel__botao--anterior{
+    background-image: url(../img/seta-esquerda.svg);
+    background-position: .8rem center;
+    left: 0;
+    margin-left: 1rem;
+}
+
+.carrossel__botao--proximo{
+    background-image: url(../img/seta-direita.svg);
+    background-position: .95rem center;
+    margin-right: 1rem;
+    right: 0;
+}
+
+.carrossel__lista-produtos{
+    height: 100%;
+    position: relative;
+}
+
+.carrossel__produto {
+    bottom: 0;
+    position:  absolute;
+    top: 0;
+    width: 100%;
+}
+
+.carrossel_image_container{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.carrossel__imagem{
+    height: 100%;
+    object-fit: cover;
+    width: 100%;
+}
+
+.carrossel__indicadores{
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    width: 100%;
+}
+
+.carrossel__indicador{
+    background-color: var(--translucid-white);
+    border:none;
+    border-radius: 2rem;
+    height: .25rem;
+    margin: .5rem 1rem;
+    width: 2.25rem;
+}
+
+.carrossel__indicador--ativo{
+    background-color: var(--orange);
+}

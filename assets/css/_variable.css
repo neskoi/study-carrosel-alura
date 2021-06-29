@@ -1,7 +1,9 @@
 :root{
     --white: #FFF;
+    --translucid-white: #FFFFFFAA;
     --pink: #F5989D;
-    --light-pink: #fab9bc;
+    --light-pink: #ffc4b2;
+    --translucid-light-pink: #FFC4B2AA;
     --orange: #F69679;
     --gray: #808080;
 }
